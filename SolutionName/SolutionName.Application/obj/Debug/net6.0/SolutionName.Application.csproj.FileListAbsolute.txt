@@ -1,0 +1,15 @@
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\bin\Debug\net6.0\SolutionName.Application.deps.json
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\bin\Debug\net6.0\SolutionName.Application.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\bin\Debug\net6.0\SolutionName.Application.pdb
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\obj\Debug\net6.0\SolutionName.Application.csproj.AssemblyReference.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\obj\Debug\net6.0\SolutionName.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\obj\Debug\net6.0\SolutionName.Application.AssemblyInfoInputs.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\obj\Debug\net6.0\SolutionName.Application.AssemblyInfo.cs
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\obj\Debug\net6.0\SolutionName.Application.csproj.CoreCompileInputs.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\obj\Debug\net6.0\SolutionName.Application.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\obj\Debug\net6.0\refint\SolutionName.Application.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\obj\Debug\net6.0\SolutionName.Application.pdb
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\obj\Debug\net6.0\ref\SolutionName.Application.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\bin\Debug\net6.0\SolutionName.Domain.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\bin\Debug\net6.0\SolutionName.Domain.pdb
+C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Application\obj\Debug\net6.0\SolutionName.Application.csproj.CopyComplete

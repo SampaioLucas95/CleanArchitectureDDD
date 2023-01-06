@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6EDMnJiheU7WVJK44KHmFfmURcyVPVWtmYpTzCyQMcs=",
+  "Source": "SolutionName.Api",
+  "BasePath": "_content/SolutionName.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

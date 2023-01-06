@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U2RksHkQKLPv98n6Qh+16dHlbcW9s3bn7wbeF3Mgb6TLiVfbv28b0KDubiogGWiyrnvilDxjTOxT6CdtpO3s0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BSI97011\\Documents\\Projetos\\Estudo\\Cotacao\\SolutionName\\SolutionName.Infrastructure\\SolutionName.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

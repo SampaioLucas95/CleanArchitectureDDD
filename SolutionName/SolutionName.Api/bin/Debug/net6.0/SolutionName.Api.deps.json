@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SolutionName.Api/1.0.0": {
+        "dependencies": {
+          "SolutionName.Application": "1.0.0",
+          "SolutionName.Contracts": "1.0.0",
+          "SolutionName.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "SolutionName.Api.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "SolutionName.Application/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "SolutionName.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SolutionName.Application.dll": {}
+        }
+      },
+      "SolutionName.Contracts/1.0.0": {
+        "runtime": {
+          "SolutionName.Contracts.dll": {}
+        }
+      },
+      "SolutionName.Domain/1.0.0": {
+        "runtime": {
+          "SolutionName.Domain.dll": {}
+        }
+      },
+      "SolutionName.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "SolutionName.Application": "1.0.0"
+        },
+        "runtime": {
+          "SolutionName.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SolutionName.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    },
+    "SolutionName.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SolutionName.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SolutionName.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SolutionName.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
