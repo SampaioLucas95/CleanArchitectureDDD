@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BSI97011\\Documents\\Projetos\\Estudo\\Cotacao\\SolutionName\\SolutionName.Contracts\\SolutionName.Contracts.csproj",
+      "projectUniqueName": "C:\\Users\\BSI97011\\Documents\\Projetos\\Estudo\\CleanArchitectureDDD\\SolutionName\\SolutionName.Contracts\\SolutionName.Contracts.csproj",
       "projectName": "SolutionName.Contracts",
-      "projectPath": "C:\\Users\\BSI97011\\Documents\\Projetos\\Estudo\\Cotacao\\SolutionName\\SolutionName.Contracts\\SolutionName.Contracts.csproj",
+      "projectPath": "C:\\Users\\BSI97011\\Documents\\Projetos\\Estudo\\CleanArchitectureDDD\\SolutionName\\SolutionName.Contracts\\SolutionName.Contracts.csproj",
       "packagesPath": "C:\\Users\\BSI97011\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BSI97011\\Documents\\Projetos\\Estudo\\Cotacao\\SolutionName\\SolutionName.Contracts\\obj\\",
+      "outputPath": "C:\\Users\\BSI97011\\Documents\\Projetos\\Estudo\\CleanArchitectureDDD\\SolutionName\\SolutionName.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

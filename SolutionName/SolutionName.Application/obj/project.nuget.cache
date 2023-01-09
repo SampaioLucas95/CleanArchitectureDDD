@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0QUr9SI3OcYAMsnJYrOhecO0Hm15jAOfjtA6raObOQh/ELoCit0yxEt5ieqXFShe0yL3pcCtDULh4XnRStuvRA==",
+  "dgSpecHash": "ZJ3HgeO2WzNcTVmW0nwcGOxTpakIpIk9Eg0y3pO1Bg4ok/TqaMxCIM51FNqB3kmnyTE1p4IPK1A2ErmnSinGow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BSI97011\\Documents\\Projetos\\Estudo\\Cotacao\\SolutionName\\SolutionName.Application\\SolutionName.Application.csproj",
+  "projectFilePath": "C:\\Users\\BSI97011\\Documents\\Projetos\\Estudo\\CleanArchitectureDDD\\SolutionName\\SolutionName.Application\\SolutionName.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],

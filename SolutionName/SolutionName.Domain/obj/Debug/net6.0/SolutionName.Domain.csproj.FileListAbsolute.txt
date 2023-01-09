@@ -10,3 +10,15 @@ C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Do
 C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Domain\obj\Debug\net6.0\refint\SolutionName.Domain.dll
 C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Domain\obj\Debug\net6.0\SolutionName.Domain.pdb
 C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Domain\obj\Debug\net6.0\ref\SolutionName.Domain.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Domain\bin\Debug\net6.0\SolutionName.Domain.deps.json
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Domain\bin\Debug\net6.0\SolutionName.Domain.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Domain\bin\Debug\net6.0\SolutionName.Domain.pdb
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Domain\obj\Debug\net6.0\SolutionName.Domain.csproj.AssemblyReference.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Domain\obj\Debug\net6.0\SolutionName.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Domain\obj\Debug\net6.0\SolutionName.Domain.AssemblyInfoInputs.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Domain\obj\Debug\net6.0\SolutionName.Domain.AssemblyInfo.cs
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Domain\obj\Debug\net6.0\SolutionName.Domain.csproj.CoreCompileInputs.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Domain\obj\Debug\net6.0\SolutionName.Domain.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Domain\obj\Debug\net6.0\refint\SolutionName.Domain.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Domain\obj\Debug\net6.0\SolutionName.Domain.pdb
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Domain\obj\Debug\net6.0\ref\SolutionName.Domain.dll

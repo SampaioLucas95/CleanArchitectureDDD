@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2ICk6u+oFDv93gleIUH9YEl6aPzY72trJiXy0nz2Ta+M/9wBNpP6/W2V43DsmrcmYdmKpGiadRJiQ/s9RFwmtw==",
+  "dgSpecHash": "1LdFaqPqKn5tqlXFJhg5d2JlTF4eVoEru2qKA1ACpPHQBLzLa+mP08jDRtPBjt32aHRy7s74tcvLcNY1l2/mAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BSI97011\\Documents\\Projetos\\Estudo\\Cotacao\\SolutionName\\SolutionName.Contracts\\SolutionName.Contracts.csproj",
+  "projectFilePath": "C:\\Users\\BSI97011\\Documents\\Projetos\\Estudo\\CleanArchitectureDDD\\SolutionName\\SolutionName.Contracts\\SolutionName.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -15,3 +15,9 @@ C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.In
 C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Infrastructure\obj\Debug\net6.0\SolutionName.Infrastructure.csproj.CopyComplete
 C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Infrastructure\bin\Debug\net6.0\SolutionName.Domain.dll
 C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Infrastructure\bin\Debug\net6.0\SolutionName.Domain.pdb
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Infrastructure\obj\Debug\net6.0\SolutionName.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Infrastructure\obj\Debug\net6.0\SolutionName.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Infrastructure\obj\Debug\net6.0\SolutionName.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Infrastructure\obj\Debug\net6.0\SolutionName.Infrastructure.AssemblyInfo.cs
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Infrastructure\obj\Debug\net6.0\SolutionName.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Infrastructure\obj\Debug\net6.0\refint\SolutionName.Infrastructure.dll

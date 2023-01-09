@@ -10,3 +10,15 @@ C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Co
 C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Contracts\obj\Debug\net6.0\refint\SolutionName.Contracts.dll
 C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Contracts\obj\Debug\net6.0\SolutionName.Contracts.pdb
 C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Contracts\obj\Debug\net6.0\ref\SolutionName.Contracts.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Contracts\bin\Debug\net6.0\SolutionName.Contracts.deps.json
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Contracts\bin\Debug\net6.0\SolutionName.Contracts.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Contracts\bin\Debug\net6.0\SolutionName.Contracts.pdb
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Contracts\obj\Debug\net6.0\SolutionName.Contracts.csproj.AssemblyReference.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Contracts\obj\Debug\net6.0\SolutionName.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Contracts\obj\Debug\net6.0\SolutionName.Contracts.AssemblyInfoInputs.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Contracts\obj\Debug\net6.0\SolutionName.Contracts.AssemblyInfo.cs
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Contracts\obj\Debug\net6.0\SolutionName.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Contracts\obj\Debug\net6.0\SolutionName.Contracts.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Contracts\obj\Debug\net6.0\refint\SolutionName.Contracts.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Contracts\obj\Debug\net6.0\SolutionName.Contracts.pdb
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Contracts\obj\Debug\net6.0\ref\SolutionName.Contracts.dll
