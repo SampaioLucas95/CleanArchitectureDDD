@@ -1,4 +1,5 @@
 using System.Linq.Expressions;
+using System.Security.Cryptography.X509Certificates;
 using Microsoft.EntityFrameworkCore;
 using SolutionName.Domain.Entities;
 using SolutionName.Domain.Repository;
@@ -24,7 +25,7 @@ namespace SolutionName.Infrastructure.Repository
             await _dbSet.AddAsync(entity);
             return entity;
         }
-        public async Task<T> GetByIdAsync(int id)
+        public async Task<T> GetByIdAsync(Guid id)
         {
             return await _dbSet.FindAsync(id);
         }

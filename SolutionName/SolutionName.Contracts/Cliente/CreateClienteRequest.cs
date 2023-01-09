@@ -1,6 +1,6 @@
 namespace SolutionName.Contracts.Cliente;
 
-public record ClienteRequest(
+public record CreateClienteRequest(
     Guid Id,
     string Nome,
     string Email,

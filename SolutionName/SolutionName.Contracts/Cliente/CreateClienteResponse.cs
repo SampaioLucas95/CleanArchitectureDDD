@@ -1,5 +1,5 @@
 namespace SolutionName.Contracts.Cliente;
 
-public record ClienteResponse(
+public record CreateClienteResponse(
     Guid Id);
     
