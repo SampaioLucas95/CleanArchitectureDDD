@@ -1,25 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionName.Api", "SolutionName.Api\SolutionName.Api.csproj", "{F5E7F363-94C7-4E66-824A-5278A1475EA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionName.Api", "SolutionName.Api\SolutionName.Api.csproj", "{F5E7F363-94C7-4E66-824A-5278A1475EA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionName.Contracts", "SolutionName.Contracts\SolutionName.Contracts.csproj", "{3E869D49-59E6-4DD2-A7D2-88659700E61D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionName.Contracts", "SolutionName.Contracts\SolutionName.Contracts.csproj", "{3E869D49-59E6-4DD2-A7D2-88659700E61D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionName.Application", "SolutionName.Application\SolutionName.Application.csproj", "{B32E6114-1C78-48DE-9F07-86B869D862F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionName.Application", "SolutionName.Application\SolutionName.Application.csproj", "{B32E6114-1C78-48DE-9F07-86B869D862F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionName.Infrastructure", "SolutionName.Infrastructure\SolutionName.Infrastructure.csproj", "{7A87789A-22B9-4520-B8DB-6E2A849394BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionName.Infrastructure", "SolutionName.Infrastructure\SolutionName.Infrastructure.csproj", "{7A87789A-22B9-4520-B8DB-6E2A849394BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionName.Domain", "SolutionName.Domain\SolutionName.Domain.csproj", "{F6D8369F-FE84-492B-B32B-6AAF919AC046}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionName.Domain", "SolutionName.Domain\SolutionName.Domain.csproj", "{F6D8369F-FE84-492B-B32B-6AAF919AC046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionName.Service", "SolutionName.Service\SolutionName.Service.csproj", "{D90D8B61-9E73-4526-8EE8-A332D8415A31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F5E7F363-94C7-4E66-824A-5278A1475EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,5 +41,15 @@ Global
 		{F6D8369F-FE84-492B-B32B-6AAF919AC046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6D8369F-FE84-492B-B32B-6AAF919AC046}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6D8369F-FE84-492B-B32B-6AAF919AC046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90D8B61-9E73-4526-8EE8-A332D8415A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90D8B61-9E73-4526-8EE8-A332D8415A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90D8B61-9E73-4526-8EE8-A332D8415A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90D8B61-9E73-4526-8EE8-A332D8415A31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EBCA53F-13C5-463D-8336-8BFCDB39F90F}
 	EndGlobalSection
 EndGlobal

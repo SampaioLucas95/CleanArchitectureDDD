@@ -19,7 +19,8 @@ namespace SolutionName.Infrastructure.Repository
 
         public async Task<Cliente> GetByEmail(string email)
         {
-            return await _dbSet.FindAsync(email);
+            return await _dbSet
+                        .Where(p => p.Email == email).FirstOrDefaultAsync();
         }
 
         public async Task<int> Patch(Guid id,Cliente entity)

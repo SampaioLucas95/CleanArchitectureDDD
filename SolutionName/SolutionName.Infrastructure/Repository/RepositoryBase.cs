@@ -19,7 +19,6 @@ namespace SolutionName.Infrastructure.Repository
             _dbSet = dbContext.Set<T>();
         }
 
-        #region Methods
         public async Task<T> AddAsync(T entity)
         {
             await _dbSet.AddAsync(entity);

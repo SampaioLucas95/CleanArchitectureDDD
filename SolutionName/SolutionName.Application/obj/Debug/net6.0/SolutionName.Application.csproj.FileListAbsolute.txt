@@ -28,3 +28,5 @@ C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\So
 C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Application\obj\Debug\net6.0\refint\SolutionName.Application.dll
 C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Application\obj\Debug\net6.0\SolutionName.Application.pdb
 C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Application\obj\Debug\net6.0\ref\SolutionName.Application.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Application\bin\Debug\net6.0\SolutionName.Service.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Application\bin\Debug\net6.0\SolutionName.Service.pdb

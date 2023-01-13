@@ -27,7 +27,7 @@ public class ClienteController : ControllerBase
 
     [HttpGet]
     [Route("/{id}/cotacao")]
-    public async Task<IActionResult> Get([FromQuery] Guid id)
+    public async Task<IActionResult> Get(Guid id)
     {
         var result = await _ClienteService.GetById(id);
         var response = new GetCotacaoResponse(result.valorOriginal, result.valorComTaxa);
@@ -36,7 +36,7 @@ public class ClienteController : ControllerBase
 
     [HttpPatch]
     [Route("/{id}/cotacao")]
-    public async Task<IActionResult> Patch([FromQuery] Guid id,[FromBody] PatchCotacaoRequest request)
+    public async Task<IActionResult> Patch(Guid id,[FromBody] PatchCotacaoRequest request)
     {
         var result = await _ClienteService.Patch(id,request.valorCotadoEmReais);
 

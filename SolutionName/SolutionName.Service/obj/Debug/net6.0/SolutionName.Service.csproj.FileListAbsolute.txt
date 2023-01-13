@@ -1,0 +1,12 @@
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Service\bin\Debug\net6.0\SolutionName.Service.deps.json
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Service\bin\Debug\net6.0\SolutionName.Service.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Service\bin\Debug\net6.0\SolutionName.Service.pdb
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Service\obj\Debug\net6.0\SolutionName.Service.csproj.AssemblyReference.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Service\obj\Debug\net6.0\SolutionName.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Service\obj\Debug\net6.0\SolutionName.Service.AssemblyInfoInputs.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Service\obj\Debug\net6.0\SolutionName.Service.AssemblyInfo.cs
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Service\obj\Debug\net6.0\SolutionName.Service.csproj.CoreCompileInputs.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Service\obj\Debug\net6.0\SolutionName.Service.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Service\obj\Debug\net6.0\refint\SolutionName.Service.dll
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Service\obj\Debug\net6.0\SolutionName.Service.pdb
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Service\obj\Debug\net6.0\ref\SolutionName.Service.dll

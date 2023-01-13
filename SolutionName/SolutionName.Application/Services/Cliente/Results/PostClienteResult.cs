@@ -1,5 +1,5 @@
 namespace SolutionName.Application.Cliente;
 
-public record ClienteResult(
+public record PostClienteResult(
     Guid Id
 );
