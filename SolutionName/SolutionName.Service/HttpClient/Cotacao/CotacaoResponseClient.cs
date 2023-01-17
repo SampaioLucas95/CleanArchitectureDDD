@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SolutionName.Service.HttpClient.Cotacao
-{
+{   
     public class CotacaoResponseClient
     {
         public string code { get; set; }
@@ -19,5 +19,10 @@ namespace SolutionName.Service.HttpClient.Cotacao
         public string varBid { get; set; }
         public string timestamp { get; set; }
         public string create_date { get; set; }
+    }
+
+    public class Root
+    {
+        public CotacaoResponseClient USDBRL { get; set; }
     }
 }

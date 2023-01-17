@@ -13,7 +13,7 @@ namespace SolutionName.Service.HttpClient.Cotacao
         public async Task<CotacaoResponseClient> GetCotacaoResponseClientAsync()
         {
             var response = await _httpClient.GetAsync("https://economia.awesomeapi.com.br/json/last/USD");
-            var cotacao = new CotacaoResponseClient();
+            var cotacao = new Root();
             var responseString = await response.Content.ReadAsStringAsync();
 
             if (!response.IsSuccessStatusCode)
@@ -21,9 +21,9 @@ namespace SolutionName.Service.HttpClient.Cotacao
                 
             }
 
-            cotacao = JsonConvert.DeserializeObject<CotacaoResponseClient>(responseString);
+            cotacao = JsonConvert.DeserializeObject<SolutionName.Service.HttpClient.Cotacao.Root>(responseString);
 
-            return cotacao;
-        }
+            return cotacao?.USDBRL;
+        } 
     }
 }

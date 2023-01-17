@@ -1,8 +1,11 @@
 using SolutionName.Application.Services.Cliente;
 using SolutionName.Application.Services.Cliente.Results;
+using SolutionName.Domain.Entities;
 using SolutionName.Domain.UnitOfWork;
 using SolutionName.Service.HttpClient.Cotacao;
 using System;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace SolutionName.Application.Cliente;
 
@@ -38,21 +41,36 @@ public class ClienteService : IClienteService
         {
            var dolarCotado = await _cotacaoHttpClient.GetCotacaoResponseClientAsync();
 
-            return new GetCotacaoResult(Convert.ToDecimal(dolarCotado.bid) * cliente.MultiplicadorBase, Convert.ToDecimal(dolarCotado.bid));
+            return new GetCotacaoResult(Convert.ToDecimal(dolarCotado.bid), CalcularCotacaoComTaxa(dolarCotado.bid, cliente.MultiplicadorBase));
         }
 
         return new GetCotacaoResult(cliente.ValorComTaxa, cliente.ValorOriginal);
     }
 
-    public async Task<PatchCotacaoResult> Patch(Guid id, decimal? valorCotadoEmReais)
+    public async Task<PatchCotacaoResult> Patch(Guid id, decimal valorCotadoEmReais)
     {
         var cliente = await _unitOfWork.ClienteRepository.GetByIdAsync(id);
 
         //realizar cotacao
+        if (cliente == null)
+            return null;
 
+            var dolarCotado = await _cotacaoHttpClient.GetCotacaoResponseClientAsync();
+            decimal dolarCotadoByReais = ObterDolarByReal(dolarCotado.bid, valorCotadoEmReais);
 
+            return new PatchCotacaoResult(cliente.Nome, cliente.Email, cliente.Id, valorCotadoEmReais, dolarCotadoByReais, dolarCotadoByReais * cliente.MultiplicadorBase);
+        
         //
 
-        return new PatchCotacaoResult(cliente.Nome, cliente.Email,cliente.Id ,cliente.ValorCotadoEmReais, cliente.ValorComTaxa, cliente.ValorOriginal);
+    }
+
+    private decimal CalcularCotacaoComTaxa(string dolarCotado, decimal multiplicadorBase)
+    {
+        return Convert.ToDecimal(dolarCotado) * multiplicadorBase;
+    }
+
+    private decimal ObterDolarByReal(string dolarCotado, decimal valorEmReaisParaCotacao)
+    {
+        return Convert.ToDecimal(dolarCotado) * valorEmReaisParaCotacao;
     }
 }

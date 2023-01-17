@@ -7,5 +7,5 @@ public interface IClienteService{
     Task<PostClienteResult> Create(string nome, string email, decimal multiplicadorBase);
     Task<GetCotacaoResult> GetById(Guid id);
 
-    Task<PatchCotacaoResult> Patch(Guid id, decimal? valorCotadoEmReais);
+    Task<PatchCotacaoResult> Patch(Guid id, decimal valorCotadoEmReais);
 }
