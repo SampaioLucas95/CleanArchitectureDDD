@@ -17,6 +17,8 @@ public class ClienteController : ControllerBase
         _ClienteService = ClienteService;
     }
     [HttpPost]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> Create(CreateClienteRequest request)
     {
 
@@ -28,6 +30,8 @@ public class ClienteController : ControllerBase
 
     [HttpGet]
     [Route("/{id}/cotacao")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> Get(Guid id)
     {
         var result = await _ClienteService.GetById(id);
@@ -37,6 +41,8 @@ public class ClienteController : ControllerBase
 
     [HttpPatch]
     [Route("/{id}/cotacao")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> Patch(Guid id,[FromBody] PatchCotacaoRequest request)
     {
         var result = await _ClienteService.Patch(id, Convert.ToDecimal(request.valorCotadoEmReais));
