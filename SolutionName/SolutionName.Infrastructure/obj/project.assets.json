@@ -1850,6 +1850,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "7.0.0",
           "Newtonsoft.Json": "13.0.2",
           "System.Net.Http": "4.3.4"
         },
