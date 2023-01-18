@@ -9,7 +9,6 @@ namespace SolutionName.Domain.Repository
 {
     public interface IClienteRepository : IBaseRepository<Cliente>
     {
-        Task<int> Patch(Guid id, Cliente entity);
         Task<Cliente> GetByEmail(string email);
     }
 }

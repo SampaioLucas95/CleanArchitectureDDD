@@ -17,10 +17,10 @@ public class ClienteService : IClienteService
     public async Task<PostClienteResult> Create(string nome, string email, decimal multiplicadorBase)
     {        
         var usuario = await _unitOfWork.ClienteRepository.GetByEmail(email);
-        if (usuario == null)
+        if (usuario != null)
             return new PostClienteResult(Guid.Empty);
         
-        usuario = new Domain.Entities.Cliente(nome, email, multiplicadorBase, null, null);
+        usuario = new Domain.Entities.Cliente(nome, email, multiplicadorBase);
         
         await _unitOfWork.ClienteRepository.AddAsync(usuario);
         await _unitOfWork.CompleteAsync();
@@ -61,6 +61,6 @@ public class ClienteService : IClienteService
 
     private decimal ObterDolarByReal(string dolarCotado, decimal valorEmReaisParaCotacao)
     {
-        return Convert.ToDecimal(dolarCotado) / valorEmReaisParaCotacao;
+        return valorEmReaisParaCotacao / Convert.ToDecimal(dolarCotado);
     }
 }

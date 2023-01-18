@@ -29,12 +29,6 @@ C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Ap
 C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Api\bin\Debug\net6.0\SolutionName.Domain.dll
 C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Api\bin\Debug\net6.0\SolutionName.Domain.pdb
 C:\Users\BSI97011\Documents\Projetos\Estudo\Cotacao\SolutionName\SolutionName.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\SolutionName.Api.csproj.AssemblyReference.cache
-C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\SolutionName.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\SolutionName.Api.AssemblyInfoInputs.cache
-C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\SolutionName.Api.AssemblyInfo.cs
-C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\SolutionName.Api.csproj.CoreCompileInputs.cache
-C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\SolutionName.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\bin\Debug\net6.0\appsettings.json
 C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\bin\Debug\net6.0\SolutionName.Api.exe
@@ -113,6 +107,13 @@ C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\So
 C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\bin\Debug\net6.0\SolutionName.Infrastructure.pdb
 C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\bin\Debug\net6.0\SolutionName.Domain.pdb
 C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\bin\Debug\net6.0\SolutionName.Service.pdb
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\SolutionName.Api.csproj.AssemblyReference.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\SolutionName.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\SolutionName.Api.AssemblyInfoInputs.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\SolutionName.Api.AssemblyInfo.cs
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\SolutionName.Api.csproj.CoreCompileInputs.cache
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\SolutionName.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\SolutionName.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\BSI97011\Documents\Projetos\Estudo\CleanArchitectureDDD\SolutionName\SolutionName.Api\obj\Debug\net6.0\scopedcss\bundle\SolutionName.Api.styles.css

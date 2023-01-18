@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Fik5dCstlIJmsgKUjRGOBSxu7tDbD6zdn5m6/8mriNfJ9nP2Tgoh4ycC8ZbxXJSTJsBsGaDwaokwnWu5GgqcaQ==",
+  "dgSpecHash": "tLw5bh83fj6sPl2BI6fHhNGCeVOrmHwQheU+JlYKbpr27BKfzP+HEz3l8b5voEQx6beGfZtFSdM0Eh89zFOlJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\BSI97011\\Documents\\Projetos\\Estudo\\CleanArchitectureDDD\\SolutionName\\SolutionName.Api\\SolutionName.Api.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,7 @@
     "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.2\\microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",
     "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.2\\microsoft.entityframeworkcore.analyzers.7.0.2.nupkg.sha512",
     "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.1\\microsoft.entityframeworkcore.design.7.0.1.nupkg.sha512",
-    "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.1\\microsoft.entityframeworkcore.relational.7.0.1.nupkg.sha512",
+    "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.2\\microsoft.entityframeworkcore.relational.7.0.2.nupkg.sha512",
     "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.1\\microsoft.entityframeworkcore.sqlserver.7.0.1.nupkg.sha512",
     "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",

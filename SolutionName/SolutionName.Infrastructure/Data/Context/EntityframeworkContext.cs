@@ -1,9 +1,6 @@
-using Microsoft.Extensions.Configuration;
-using System.Data;
-using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using SolutionName.Domain.Entities;
-using Microsoft.Extensions.Options;
+using SolutionName.Infrastructure.Data.Mapping;
 
 namespace SolutionName.Infrastructure.Data.Context;
 
@@ -15,13 +12,14 @@ public class EntityframeworkContext : DbContext
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-
+    {        
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Cliente>(new ClienteMap().Configure);
 
+        base.OnModelCreating(modelBuilder);
     }
 
     public DbSet<Cliente> Cliente { get; set; }

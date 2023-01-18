@@ -20,7 +20,7 @@ public class ClienteController : ControllerBase
     public async Task<IActionResult> Create(CreateClienteRequest request)
     {
 
-       var result = await _ClienteService.Create(request.Nome, request.Email, (decimal)request.MultiplicadorBase);
+       var result = await _ClienteService.Create(request.Nome, request.Email, Convert.ToDecimal(request.MultiplicadorBase));
        var response = new CreateClienteResponse(result.Id);
 
         return Ok(response);
@@ -39,7 +39,7 @@ public class ClienteController : ControllerBase
     [Route("/{id}/cotacao")]
     public async Task<IActionResult> Patch(Guid id,[FromBody] PatchCotacaoRequest request)
     {
-        var result = await _ClienteService.Patch(id,(decimal)request.valorCotadoEmReais);
+        var result = await _ClienteService.Patch(id, Convert.ToDecimal(request.valorCotadoEmReais));
 
         var response = new PatchCotacaoResponse(
             new PatchClienteResponse(result.nome, result.email, result.id),

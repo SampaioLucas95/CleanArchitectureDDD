@@ -5,7 +5,6 @@ namespace SolutionName.Contracts.Cliente;
 
 public class CreateClienteRequest
 {
-    public Guid Id { get; set; }
 
     [Required(ErrorMessage ="Informe o Nome")]
     [MaxLength(60, ErrorMessage = "Limite de caractéres ultrapassado para o campo")]
@@ -16,6 +15,6 @@ public class CreateClienteRequest
     public string Email { get; set; }
 
     [Required(ErrorMessage = "Informe o MultiplicadorBase")]
-    [Range(0, 9999999999999999.99)]
+    [Range(0, 99.99999)]
     public decimal? MultiplicadorBase { get; set; } 
 }

@@ -2,11 +2,6 @@
 using SolutionName.Domain.UnitOfWork;
 using SolutionName.Infrastructure.Data.Context;
 using SolutionName.Infrastructure.Data.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SolutionName.Infrastructure.Data.UnitOfWork
 {

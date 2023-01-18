@@ -23,17 +23,5 @@ namespace SolutionName.Infrastructure.Data.Repository
                         .Where(p => p.Email == email).FirstOrDefaultAsync();
         }
 
-        public async Task<int> Patch(Guid id,Cliente entity)
-        {
-
-           return await _dbSet
-                        .Where(p => p.Id == id)
-                        .ExecuteUpdateAsync(
-                            p => p.SetProperty(x => x.ValorCotadoEmReais, x => entity.ValorCotadoEmReais)
-                            .SetProperty(w => w.ValorOriginal, w => entity.ValorOriginal)
-                            .SetProperty(w => w.ValorComTaxa, w => entity.ValorComTaxa)
-                            .SetProperty(w => w.ValorCotadoEmReais, w => entity.ValorCotadoEmReais)
-                        );
-        }
     }
 }
