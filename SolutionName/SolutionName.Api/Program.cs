@@ -1,7 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using SolutionName.Application;
-using SolutionName.Infrastructure;
-using SolutionName.Infrastructure.Context.Cotacao;
+using SolutionName.Infrastructure.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 {

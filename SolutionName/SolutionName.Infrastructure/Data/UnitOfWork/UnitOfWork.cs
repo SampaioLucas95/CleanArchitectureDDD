@@ -1,14 +1,14 @@
 ﻿using SolutionName.Domain.Repository;
 using SolutionName.Domain.UnitOfWork;
-using SolutionName.Infrastructure.Context.Cotacao;
-using SolutionName.Infrastructure.Repository;
+using SolutionName.Infrastructure.Data.Context;
+using SolutionName.Infrastructure.Data.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SolutionName.Infrastructure.UnitOfWork
+namespace SolutionName.Infrastructure.Data.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {

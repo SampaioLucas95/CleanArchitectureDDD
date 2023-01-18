@@ -3,9 +3,9 @@ using System.Security.Cryptography.X509Certificates;
 using Microsoft.EntityFrameworkCore;
 using SolutionName.Domain.Entities;
 using SolutionName.Domain.Repository;
-using SolutionName.Infrastructure.Context.Cotacao;
+using SolutionName.Infrastructure.Data.Context;
 
-namespace SolutionName.Infrastructure.Repository
+namespace SolutionName.Infrastructure.Data.Repository
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : class
     {

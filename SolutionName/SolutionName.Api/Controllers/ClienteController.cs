@@ -19,7 +19,8 @@ public class ClienteController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Create(CreateClienteRequest request)
     {
-       var result = await _ClienteService.Create(request.Nome, request.Email, request.MultiplicadorBase);
+
+       var result = await _ClienteService.Create(request.Nome, request.Email, (decimal)request.MultiplicadorBase);
        var response = new CreateClienteResponse(result.Id);
 
         return Ok(response);

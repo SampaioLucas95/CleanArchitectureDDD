@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore;
 using SolutionName.Domain.Entities;
 using Microsoft.Extensions.Options;
 
-namespace SolutionName.Infrastructure.Context.Cotacao;
+namespace SolutionName.Infrastructure.Data.Context;
 
-    public class EntityframeworkContext : DbContext
+public class EntityframeworkContext : DbContext
 {
     public EntityframeworkContext(DbContextOptions<EntityframeworkContext> options) : base(options)
     {
-  
+
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -21,8 +21,8 @@ namespace SolutionName.Infrastructure.Context.Cotacao;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        
+
     }
 
     public DbSet<Cliente> Cliente { get; set; }
-} 
+}

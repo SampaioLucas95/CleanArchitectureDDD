@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SolutionName.Domain.Entities;
 using SolutionName.Domain.Repository;
-using SolutionName.Infrastructure.Context.Cotacao;
+using SolutionName.Infrastructure.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SolutionName.Infrastructure.Repository
+namespace SolutionName.Infrastructure.Data.Repository
 {
     public class ClienteRepository : BaseRepository<Cliente>, IClienteRepository
     {
