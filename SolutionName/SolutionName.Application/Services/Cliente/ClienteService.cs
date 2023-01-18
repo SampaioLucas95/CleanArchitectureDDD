@@ -1,11 +1,7 @@
 using SolutionName.Application.Services.Cliente;
 using SolutionName.Application.Services.Cliente.Results;
-using SolutionName.Domain.Entities;
 using SolutionName.Domain.UnitOfWork;
 using SolutionName.Service.HttpClient.Cotacao;
-using System;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
 
 namespace SolutionName.Application.Cliente;
 
@@ -42,7 +38,6 @@ public class ClienteService : IClienteService
 
             return new GetCotacaoResult(Convert.ToDecimal(dolarCotado.bid), CalcularCotacaoComTaxa(Convert.ToDecimal(dolarCotado.bid), cliente.MultiplicadorBase));
         }
-
         return new GetCotacaoResult(null, null);
     }
 
@@ -50,7 +45,6 @@ public class ClienteService : IClienteService
     {
         var cliente = await _unitOfWork.ClienteRepository.GetByIdAsync(id);
 
-        //realizar cotacao
         if (cliente == null)
             return new PatchCotacaoResult("","",Guid.Empty,null,null,null);
 
@@ -58,9 +52,6 @@ public class ClienteService : IClienteService
             decimal dolarCotadoByReais = ObterDolarByReal(dolarCotado.bid, valorCotadoEmReais);
 
             return new PatchCotacaoResult(cliente.Nome, cliente.Email, cliente.Id, valorCotadoEmReais, dolarCotadoByReais, CalcularCotacaoComTaxa(dolarCotadoByReais, cliente.MultiplicadorBase));
-        
-        //
-
     }
 
     private decimal CalcularCotacaoComTaxa(decimal dolarCotado, decimal multiplicadorBase)
