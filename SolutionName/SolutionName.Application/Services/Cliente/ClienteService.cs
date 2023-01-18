@@ -40,7 +40,7 @@ public class ClienteService : IClienteService
         {
            var dolarCotado = await _cotacaoHttpClient.GetCotacaoResponseClientAsync();
 
-            return new GetCotacaoResult(Convert.ToDecimal(dolarCotado.bid), CalcularCotacaoComTaxa(dolarCotado.bid, cliente.MultiplicadorBase));
+            return new GetCotacaoResult(Convert.ToDecimal(dolarCotado.bid), CalcularCotacaoComTaxa(Convert.ToDecimal(dolarCotado.bid), cliente.MultiplicadorBase));
         }
 
         return new GetCotacaoResult(null, null);
@@ -57,13 +57,13 @@ public class ClienteService : IClienteService
             var dolarCotado = await _cotacaoHttpClient.GetCotacaoResponseClientAsync();
             decimal dolarCotadoByReais = ObterDolarByReal(dolarCotado.bid, valorCotadoEmReais);
 
-            return new PatchCotacaoResult(cliente.Nome, cliente.Email, cliente.Id, valorCotadoEmReais, dolarCotadoByReais, dolarCotadoByReais * cliente.MultiplicadorBase);
+            return new PatchCotacaoResult(cliente.Nome, cliente.Email, cliente.Id, valorCotadoEmReais, dolarCotadoByReais, CalcularCotacaoComTaxa(dolarCotadoByReais, cliente.MultiplicadorBase));
         
         //
 
     }
 
-    private decimal CalcularCotacaoComTaxa(string dolarCotado, decimal multiplicadorBase)
+    private decimal CalcularCotacaoComTaxa(decimal dolarCotado, decimal multiplicadorBase)
     {
         return Convert.ToDecimal(dolarCotado) * multiplicadorBase;
     }
