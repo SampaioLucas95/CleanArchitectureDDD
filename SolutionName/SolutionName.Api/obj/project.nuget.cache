@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ggGTNv/U//uCw9oe9chYjsfOsc/qtWJ8RauPRoEUgjvEEyFSmfnsrlSswo+D7pHJxsmXrF/QOOCQnQyFTpDltA==",
+  "dgSpecHash": "Fik5dCstlIJmsgKUjRGOBSxu7tDbD6zdn5m6/8mriNfJ9nP2Tgoh4ycC8ZbxXJSTJsBsGaDwaokwnWu5GgqcaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\BSI97011\\Documents\\Projetos\\Estudo\\CleanArchitectureDDD\\SolutionName\\SolutionName.Api\\SolutionName.Api.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\BSI97011\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\BSI97011\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
