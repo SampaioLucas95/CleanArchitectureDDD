@@ -15,6 +15,6 @@ public class CreateClienteRequest
     public string Email { get; set; }
 
     [Required(ErrorMessage = "Informe o MultiplicadorBase")]
-    [Range(0, 99.99999)]
+    [Range(0.1, 99.99999)]
     public decimal? MultiplicadorBase { get; set; } 
 }
