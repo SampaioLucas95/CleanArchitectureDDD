@@ -7,7 +7,6 @@ using SolutionName.Contracts.Cliente;
 using SolutionName.Contracts.Cotacao;
 
 namespace SolutionName.Api.Controllers;
-
 [ApiController]
 [Route("api/v1/cliente")]
 public class ClienteController : ControllerBase
@@ -18,7 +17,6 @@ public class ClienteController : ControllerBase
         _ClienteService = ClienteService;
     }
     [HttpPost]
-    [ApiKey]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<IActionResult> Create(CreateClienteRequest request)
     {
@@ -30,8 +28,7 @@ public class ClienteController : ControllerBase
     }
 
     [HttpGet]
-    [ApiKey]
-    [Route("/{id}/cotacao")]
+    [Route("{id}/cotacao")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<IActionResult> Get(Guid id)
     {
@@ -41,8 +38,7 @@ public class ClienteController : ControllerBase
     }
 
     [HttpPatch]
-    [ApiKey]
-    [Route("/{id}/cotacao")]
+    [Route("{id}/cotacao")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<IActionResult> Patch(Guid id,[FromBody] PatchCotacaoRequest request)
     {
