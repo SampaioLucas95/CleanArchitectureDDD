@@ -1,11 +1,7 @@
 using SolutionName.Application.Services.Cliente;
 using SolutionName.Application.Services.Cliente.Results;
-using SolutionName.Domain.Entities;
 using SolutionName.Domain.UnitOfWork;
 using SolutionName.Service.HttpClient.Cotacao;
-using System;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
 
 namespace SolutionName.Application.Cliente;
 
@@ -22,10 +18,9 @@ public class ClienteService : IClienteService
     {        
         var usuario = await _unitOfWork.ClienteRepository.GetByEmail(email);
         if (usuario != null)
-            return new PostClienteResult(usuario.Id);
+            return new PostClienteResult(Guid.Empty);
         
-
-        usuario = new Domain.Entities.Cliente(nome, email, multiplicadorBase, null, null);
+        usuario = new Domain.Entities.Cliente(nome, email, multiplicadorBase);
         
         await _unitOfWork.ClienteRepository.AddAsync(usuario);
         await _unitOfWork.CompleteAsync();
@@ -41,36 +36,31 @@ public class ClienteService : IClienteService
         {
            var dolarCotado = await _cotacaoHttpClient.GetCotacaoResponseClientAsync();
 
-            return new GetCotacaoResult(Convert.ToDecimal(dolarCotado.bid), CalcularCotacaoComTaxa(dolarCotado.bid, cliente.MultiplicadorBase));
+            return new GetCotacaoResult(Convert.ToDecimal(dolarCotado.bid), CalcularCotacaoComTaxa(Convert.ToDecimal(dolarCotado.bid), cliente.MultiplicadorBase));
         }
-
-        return new GetCotacaoResult(cliente.ValorComTaxa, cliente.ValorOriginal);
+        return new GetCotacaoResult(null, null);
     }
 
     public async Task<PatchCotacaoResult> Patch(Guid id, decimal valorCotadoEmReais)
     {
         var cliente = await _unitOfWork.ClienteRepository.GetByIdAsync(id);
 
-        //realizar cotacao
         if (cliente == null)
-            return null;
+            return new PatchCotacaoResult("","",Guid.Empty,null,null,null);
 
             var dolarCotado = await _cotacaoHttpClient.GetCotacaoResponseClientAsync();
             decimal dolarCotadoByReais = ObterDolarByReal(dolarCotado.bid, valorCotadoEmReais);
 
-            return new PatchCotacaoResult(cliente.Nome, cliente.Email, cliente.Id, valorCotadoEmReais, dolarCotadoByReais, dolarCotadoByReais * cliente.MultiplicadorBase);
-        
-        //
-
+            return new PatchCotacaoResult(cliente.Nome, cliente.Email, cliente.Id, valorCotadoEmReais, dolarCotadoByReais, CalcularCotacaoComTaxa(dolarCotadoByReais, cliente.MultiplicadorBase));
     }
 
-    private decimal CalcularCotacaoComTaxa(string dolarCotado, decimal multiplicadorBase)
+    private decimal CalcularCotacaoComTaxa(decimal dolarCotado, decimal multiplicadorBase)
     {
         return Convert.ToDecimal(dolarCotado) * multiplicadorBase;
     }
 
     private decimal ObterDolarByReal(string dolarCotado, decimal valorEmReaisParaCotacao)
     {
-        return Convert.ToDecimal(dolarCotado) * valorEmReaisParaCotacao;
+        return valorEmReaisParaCotacao / Convert.ToDecimal(dolarCotado);
     }
 }

@@ -11,6 +11,7 @@
           "Microsoft.Data.SqlClient": "5.0.1",
           "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.EntityFrameworkCore.Design": "7.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.2",
           "Microsoft.Extensions.Configuration": "7.0.0",
@@ -1046,6 +1047,7 @@
       },
       "SolutionName.Service/1.0.0": {
         "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "7.0.0",
           "Newtonsoft.Json": "13.0.2",
           "System.Net.Http": "4.3.4"
         },

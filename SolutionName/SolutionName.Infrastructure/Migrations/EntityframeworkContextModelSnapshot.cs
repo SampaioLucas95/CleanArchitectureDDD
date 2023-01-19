@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SolutionName.Infrastructure.Context.Cotacao;
+using SolutionName.Infrastructure.Data.Context;
 
 #nullable disable
 
@@ -30,27 +30,20 @@ namespace SolutionName.Infrastructure.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
 
                     b.Property<decimal>("MultiplicadorBase")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(6,5)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal?>("ValorComTaxa")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal?>("ValorCotadoEmReais")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal?>("ValorOriginal")
-                        .HasColumnType("decimal(18,2)");
+                        .HasMaxLength(60)
+                        .HasColumnType("varchar(80)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Cliente");
+                    b.ToTable("Cliente", (string)null);
                 });
 #pragma warning restore 612, 618
         }
