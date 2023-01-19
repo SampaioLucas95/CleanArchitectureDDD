@@ -18,7 +18,7 @@ public class ClienteService : IClienteService
     {        
         var usuario = await _unitOfWork.ClienteRepository.GetByEmail(email);
         if (usuario != null)
-            return new PostClienteResult(Guid.Empty);
+            return new PostClienteResult(usuario.Id);
         
         usuario = new Domain.Entities.Cliente(nome, email, multiplicadorBase);
         
