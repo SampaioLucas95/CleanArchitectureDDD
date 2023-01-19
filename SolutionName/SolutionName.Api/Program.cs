@@ -9,18 +9,16 @@ using SolutionName.Infrastructure.IoC;
 var builder = WebApplication.CreateBuilder(args);
 {
 
-
-    builder.Services
-                .AddApplication()
-                .AddDataBaseContext(builder.Configuration)
-                .AddInfrastructure();
-
     builder.Services.AddControllers(config =>
     {
-        config.EnableEndpointRouting = false;
         config.Filters.Add(typeof(ApplicationFilter));
         config.Filters.Add(typeof(ApplicationExceptionFilter));
     });
+
+    builder.Services
+            .AddApplication()
+            .AddDataBaseContext(builder.Configuration)
+            .AddInfrastructure();
 
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen(c =>
@@ -61,13 +59,13 @@ var app = builder.Build();
     app.UseSwaggerUI();
     //}
     app.UseHttpsRedirection();
-    app.UseRouting();
+    app.UseRouting();    
+    app.UseAuthorization();
+    app.UseMiddleware<ApiKeyMiddleware>();
     app.UseCors(x => x
     .AllowAnyOrigin()
     .AllowAnyMethod()
     .AllowAnyHeader());
-    app.UseAuthorization();
-    app.UseMiddleware<ApiKeyMiddleware>();
     app.MapControllers();
     app.Run();
 }
